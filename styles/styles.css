@@ -1,0 +1,95 @@
+body {
+    margin:0;
+    padding:0;
+    overflow-x:hidden;
+    background: linear-gradient(45deg, rgba(20, 54, 111), rgba(86, 17, 57));
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    margin: 0px;
+  }
+  
+  .backsquare{
+    background-color: rgba(255, 255, 255, 0.2);
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 10px;
+    padding: 10px;
+    margin: 10px;
+    width: 1000px;
+    height: 800px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  }
+
+  .header {
+    color: #00ffff;
+    font-size: 50px;
+    font-family: 'Roboto', Courier, monospace;
+    text-align: center;
+  }
+  
+  .title-row {
+    margin-top: 42px;
+    text-align: center;
+      margin-bottom: 21px;
+  }
+  
+  .logo {
+    background-color: #00ffff;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .instructions-title {
+    display: inline;
+    font-size: 18px;
+    color: #00ffff;
+    font-family: 'Roboto';
+  }
+  
+  .instructions-row {
+    margin: 0 auto;
+    width: 400px;
+  }
+  
+  .instructions-number {
+    padding-right: 25px;
+    font-family: 'Roboto';
+    font-size: 36px;
+    color: #00ffff;
+  }
+  
+  .instructions-text {
+    padding: 10px;
+    font-family: 'Roboto';
+    font-size: 14px;
+    color: #ffffff;
+  }
+  
+  .door-row {
+    text-align: center;
+  }
+  
+  .door-frame {
+    cursor: pointer;
+    padding: 10px;
+  }
+  
+  .start-row {
+    margin: auto;
+    width: 120px;
+    height: 60px;
+    text-align: center;
+    border-radius: 20px;
+    background-color: rgba(86, 17, 57);
+    padding-top: 18px;
+    font-family: 'Roboto';
+    font-size: 18px;
+    color: #00ffff;
+    margin-bottom: 9px;
+    cursor: pointer;
+  }

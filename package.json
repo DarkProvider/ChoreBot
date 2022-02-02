@@ -1,0 +1,14 @@
+{
+  "name": "chore-bot---js-game",
+  "version": "1.0.0",
+  "description": "A simple game that has been made for bored people",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Yazan Al Akkad",
+  "license": "ISC",
+  "dependencies": {
+    "confetti-js": "^0.0.18"
+  }
+}

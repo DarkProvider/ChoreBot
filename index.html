@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>Chore Door!</title>
+      <link href="./styles/styles.css" rel="stylesheet" type="text/css">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> 
+    </head>
+
+    <body>
+      <canvas id="my-canvas"></canvas>
+      <div class="backsquare">
+        <div class='header'>
+          <p>Chore Door 🧹</p>
+        </div>
+
+        <div class='title-row'>
+          <img src='https://s3.amazonaws.com/codecademy-content/projects/chore-door/images/star.svg' alt='Star1'>
+          <p class='instructions-title'>
+            Instructions
+          </p>
+          <img src='https://s3.amazonaws.com/codecademy-content/projects/chore-door/images/star.svg' alt="Star2">
+        </div>
+
+        <table class='instructions-row'>
+          <tr>
+            <td class='instructions-number'>1.</td>
+            <td class='instructions-text'>Hiding behind one of these doors is the ChoreBot.</td>
+          </tr>
+          <tr>
+            <td class='instructions-number'>2.</td>
+            <td class='instructions-text'>Your mission is to open all of the doors without running into the ChoreBot.</td>
+          </tr>
+          <tr>
+            <td class='instructions-number'>3.</td>
+            <td class='instructions-text'>If you manage to avoid the ChoreBot until you open the very last door, you win!</td>
+          </tr>
+          <tr>
+            <td class='instructions-number'>4.</td>
+            <td class='instructions-text'>See if you can score a winning streak!</td>
+          </tr>
+        </table>
+
+        <div class='door-row'>
+          <img class='door-frame' src='https://s3.amazonaws.com/codecademy-content/projects/chore-door/images/closed_door.svg' id='door1' alt='Door1'>
+          <img class='door-frame' src='https://s3.amazonaws.com/codecademy-content/projects/chore-door/images/closed_door.svg' id='door2' alt='Door2'>
+          <img class='door-frame' src='https://s3.amazonaws.com/codecademy-content/projects/chore-door/images/closed_door.svg' id='door3' alt='Door3'>
+        </div>
+
+        <div class='start-row' id='start'>Good luck!</div>
+
+        <script type='text/javascript' src='/scripts/script.js'></script>
+        <script src="node_modules/confetti-js/dist/index.min.js"></script>
+      <div>
+    </body>
+
+</html>
