@@ -11,7 +11,7 @@ body {
   }
   
   .backsquare{
-    background-color: rgba(255, 255, 255, 0.2);
+    background-color: rgba(255, 255, 255, 0.4);
     position: absolute;
     top: 50%;
     left: 50%;
@@ -25,7 +25,7 @@ body {
   }
 
   .header {
-    color: #00ffff;
+    color: rgba(20, 54, 111);
     font-size: 50px;
     font-family: 'Roboto', Courier, monospace;
     text-align: center;
@@ -36,18 +36,11 @@ body {
     text-align: center;
       margin-bottom: 21px;
   }
-  
-  .logo {
-    background-color: #00ffff;
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
-  }
-  
+
   .instructions-title {
     display: inline;
     font-size: 18px;
-    color: #00ffff;
+    color: rgba(20, 54, 111);
     font-family: 'Roboto';
   }
   
@@ -60,7 +53,7 @@ body {
     padding-right: 25px;
     font-family: 'Roboto';
     font-size: 36px;
-    color: #00ffff;
+    color: rgba(20, 54, 111);
   }
   
   .instructions-text {
@@ -85,17 +78,17 @@ body {
     height: 60px;
     text-align: center;
     border-radius: 20px;
-    background-color: rgba(86, 17, 57);
+    background-color: rgba(86, 17, 57, 0.6);
     padding-top: 18px;
     font-family: 'Roboto';
     font-size: 18px;
-    color: #00ffff;
+    color: rgba(20, 54, 111);
     margin-bottom: 9px;
     cursor: pointer;
   }
 
   .copyrighttext {
-    color: #00ffff;
+    color: rgba(20, 54, 111);
     font-size: 12px;
     font-family: 'Roboto';
     text-align: center;
